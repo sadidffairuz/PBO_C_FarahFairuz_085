@@ -5,13 +5,13 @@ public class codelabDataDiri1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Masukkan Nama : ");
+        System.out.print("Masukkan Nama : ");
         String nama = input.nextLine();
 
-        System.out.println("Masukkan Jenis Kelamin (P/L) : ");
+        System.out.print("Masukkan Jenis Kelamin (P/L) : ");
         char pilihJenisKelamin = input.next().charAt(0);
 
-        System.out.println("Masukkan Tahun Lahir : ");
+        System.out.print("Masukkan Tahun Lahir : ");
         int tahunLahir = input.nextInt();
 
         input.close();
@@ -26,7 +26,7 @@ public class codelabDataDiri1 {
         } else if (pilihJenisKelamin == 'P' || pilihJenisKelamin == 'p') {
             jenisKelamin = "Perempuan";
         } else {
-            jenisKelamin = "Tidak Diketahui Jenis Kelaminnya";
+            jenisKelamin = "Tidak Diketahui";
         }
 
         System.out.println("Nama : " + nama);
