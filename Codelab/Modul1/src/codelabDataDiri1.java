@@ -26,7 +26,7 @@ public class codelabDataDiri1 {
         } else if (pilihJenisKelamin == 'P' || pilihJenisKelamin == 'p') {
             jenisKelamin = "Perempuan";
         } else {
-            jenisKelamin = "Tidak Diketahui";
+            jenisKelamin = "Tidak Diketahui Jenis Kelaminnya";
         }
 
         System.out.println("Nama : " + nama);
